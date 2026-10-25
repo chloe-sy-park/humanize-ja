@@ -1,0 +1,409 @@
+{
+  "as_of": "2026-10-25",
+  "sampling": "purposive, one product and one campaign per Japanese cosmetics brand; matched by brand not necessarily SKU",
+  "products": [
+    {
+      "id": "P01",
+      "brand": "ELIXIR",
+      "item": "アドバンスド ローション T",
+      "quote": "ハリとうるおい蓄え、「つや玉」続く。",
+      "url": "https://www.shiseido.co.jp/elixir/advanced/products/lotion-emulsion/",
+      "source_type": "공식 제품 특설 상세",
+      "decision": "KEEP",
+      "finding": "「つや玉」はブランド固有語。一般的な「ツヤ肌」に平準化しない。",
+      "scope": "エイジングケアを医療的な若返りと訳さない。商品・発売時期の照合を要する。",
+      "edit": "そのまま維持。別媒体へ展開する場合は「つや玉」の定義を添える。"
+    },
+    {
+      "id": "P02",
+      "brand": "FANCL",
+      "item": "エンリッチプラス 化粧液 I（医薬部外品）",
+      "quote": "今も、そして未来へと続く ふっくら、押し返す弾力肌。",
+      "url": "https://www.fancl.co.jp/beauty/item/3761d/",
+      "source_type": "공식 제품 상세",
+      "decision": "REVIEW",
+      "finding": "弾力と時間軸を連結。スキンケアの情緒コピーとして自然。",
+      "scope": "「シワ改善」等の有効性表現は医薬部外品の承認範囲と注記を別途確認。",
+      "edit": "詩的な見出しを維持。効能の下位説明は承認情報と整合。"
+    },
+    {
+      "id": "P03",
+      "brand": "Curél",
+      "item": "潤浸保湿 化粧水 III",
+      "quote": "肌荒れを防ぐ。潤い成分配合で、角層まで深く潤う。",
+      "url": "https://www.kao-kirei.com/ja/official/curel/products/skincare_moisturizers/",
+      "source_type": "공식 제품 상세",
+      "decision": "KEEP",
+      "finding": "短い二文で機能と到達範囲を限定。乾燥性敏感肌向けの語調に合う。",
+      "scope": "「角層まで」は省略不可の意味限定。「治す」への言い換え禁止。",
+      "edit": "維持。「肌荒れを治す」への言い換え不可。"
+    },
+    {
+      "id": "P04",
+      "brand": "ORBIS",
+      "item": "オルビスユー ドット エッセンスローション",
+      "quote": "肌のすみずみにしみわたる うるおい充満ローション",
+      "url": "https://www.orbis.co.jp/small/11010752/",
+      "source_type": "공식 제품 상세",
+      "decision": "REVIEW",
+      "finding": "「すみずみ」を感覚語に使い、商品説明で角層までと範囲を説明。",
+      "scope": "同ページの「最高峰」はオルビス内保湿力に限定。限定条件を一緒に示す。",
+      "edit": "見出しは維持。掲載媒体で対応する「角層まで」注記を確認。"
+    },
+    {
+      "id": "P05",
+      "brand": "POLA",
+      "item": "B.A ローション 7",
+      "quote": "濃密感触なのに、すばやい浸透感。",
+      "url": "https://www.pola.co.jp/ec/products/g-1234/",
+      "source_type": "공식 제품 상세",
+      "decision": "REVIEW",
+      "finding": "逆接が触感の実在する違いを表し、機械的な「一方」の削除対象ではない。",
+      "scope": "「浸透」は角層まで、比較数字は比較対象・測定期間を保持。",
+      "edit": "維持。数値比較を再掲載する場合のみ根拠脚注も併記。"
+    },
+    {
+      "id": "P06",
+      "brand": "DECORTÉ",
+      "item": "リポソーム アドバンスト リペアアイセラム",
+      "quote": "高濃度ダブルカプセル1.6兆個",
+      "url": "https://www.decorte.com/site/g/gJVAE",
+      "source_type": "공식 제품 상세",
+      "decision": "REVIEW",
+      "finding": "大きな数値が製品特徴の中心。リズム修正で削除しない。",
+      "scope": "1.6兆個は1滴0.1mLとして算出した概算。高濃度は従来品比。",
+      "edit": "「1滴0.1mLあたりの概算」等の出典注記と分離しない。"
+    },
+    {
+      "id": "P07",
+      "brand": "THREE",
+      "item": "バランシングネクター ローション",
+      "quote": "美容液級のまろやかなとろみでうるおいラップ。",
+      "url": "https://www.threecosmetics.com/onlineshop/g/gt1y1jr/%7B%3Dpath.root%3D%7D/g/gt1y1jb/",
+      "source_type": "공식 제품 상세",
+      "decision": "REVIEW",
+      "finding": "質感を比喩で伝える。説明文中の「花蜜」「消えるラップ」は意図的な世界観。",
+      "scope": "自然由来指数94%はISO16128準拠・水を含む。数値使用時に定義を保つ。",
+      "edit": "比喩を維持し、機能性や「浸透」の範囲を拡張しない。"
+    },
+    {
+      "id": "P08",
+      "brand": "RMK",
+      "item": "リクイドファンデーション フローレスカバレッジ プラス",
+      "quote": "どこから見ても美しい、全方位ファンデーション",
+      "url": "https://www.rmkrmk.com/ja/categories/basemakeup/foundation/p/4973167014424",
+      "source_type": "공식 제품 상세",
+      "decision": "KEEP",
+      "finding": "視線・立体的なツヤの一貫した視覚比喩。冗長化しない。",
+      "scope": "SPF/PA表示は色番ごとに異なる。全色共通値に書き換えない。",
+      "edit": "維持。色番ごとのSPF/PAをコピー時にも照合。"
+    },
+    {
+      "id": "P09",
+      "brand": "KATE",
+      "item": "リップモンスターQ",
+      "quote": "クリーミー質感で長時間落ちにくい",
+      "url": "https://www.nomorerules.net/all_products/lip/",
+      "source_type": "공식 상품 라인 페이지",
+      "decision": "REVIEW",
+      "finding": "製品機能を直截に示す。ブランドの怪物世界観に従属させすぎない。",
+      "scope": "「長時間」は色持ち・設計に関する訴求。測定条件を確認し「絶対落ちない」へ強めない。",
+      "edit": "維持。ただし検証範囲の資料がなければ長時間の定量化は保留。"
+    },
+    {
+      "id": "P10",
+      "brand": "ALBION",
+      "item": "薬用スキンコンディショナー エッセンシャル N",
+      "quote": "肌のコンディションを整えてトラブルを防ぐ。",
+      "url": "https://albion.co.jp/site/g/gAAAKAD/",
+      "source_type": "공식 제품 상세",
+      "decision": "KEEP",
+      "finding": "効用を平明に示す。薬用シリーズでは過度な詩的修正は不要。",
+      "scope": "「トラブル」は本文で肌荒れ・乾燥の意味が明瞭。治療効果に格上げしない。",
+      "edit": "維持。曖昧さの解消は本文に任せる。"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "A01",
+      "brand": "ELIXIR",
+      "item": "ブランドメッセージ",
+      "quote": "この肌を、生きるを、愛する。",
+      "url": "https://www.shiseido.co.jp/elixir/index.html?rt_pr=trg74",
+      "source_type": "공식 브랜드 캠페인 문구",
+      "decision": "KEEP",
+      "finding": "格助詞の反復と省略を意図的に使い、商品説明と役割分担。文法修正で消さない。",
+      "scope": "企業理念としての比喩。機能・効果の断定に転用しない。",
+      "edit": "維持。",
+      "ai": "エリクシールで、ハリとうるおいのある毎日の肌へ。",
+      "facts": "ブランド：ELIXIR。ハリ・うるおい、「つや玉」を重視。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "A02",
+      "brand": "FANCL",
+      "item": "2026 無添加スキンケア TVCM",
+      "quote": "肌のほんとうのこと",
+      "url": "https://www.fancl.jp/news/20260018/news_20260018.html",
+      "source_type": "공식 TVCM 보도자료",
+      "decision": "KEEP",
+      "finding": "問いを呼ぶ短い名詞句。ブランドストーリーの入口なら抽象度を許容。",
+      "scope": "「無添加」は企業が定義する非配合成分の範囲を維持。万能な安全保証としない。",
+      "edit": "維持。ブランドを知らない媒体なら文脈を補う。",
+      "ai": "ファンケルの無添加スキンケアで、すこやかな素肌へ。",
+      "facts": "無添加スキンケア。ブランドが対象とする非配合成分の定義あり。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "A03",
+      "brand": "Curél",
+      "item": "ブランドコンセプト",
+      "quote": "乾燥性敏感肌の人々の悩みに、ひとつ残らず応えるために。",
+      "url": "https://www.kao-kirei.com/ja/official/curel/concept/",
+      "source_type": "공식 브랜드 캠페인/컨셉",
+      "decision": "REVIEW",
+      "finding": "「ひとつ残らず」はブランドの使命文脈。個別製品が全症状を解消するとの表現に流用しない。",
+      "scope": "絶対語は自動削除しないが受け手が機能保証と読むかを確認。",
+      "edit": "ブランドミッションでは維持。個別効能広告で再利用する場合は再審査。",
+      "ai": "乾燥性敏感肌のために、セラミドケアを考えたスキンケア。",
+      "facts": "乾燥性敏感肌を考え、セラミドの働きを守り補うケア。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "A04",
+      "brand": "ORBIS",
+      "item": "ユードット ブランド訴求",
+      "quote": "ハリも透明感も結果主義。",
+      "url": "https://www.orbis.co.jp/small/11010752/",
+      "source_type": "공식 제품내 캠페인 카피",
+      "decision": "REVIEW",
+      "finding": "二要素の対句がメリットを短く提示する。「結果主義」は単体では成果数値ではない。",
+      "scope": "「透明感」はうるおいによる印象。売上No.1等を新たに加えない。",
+      "edit": "維持。薬用美白・透明感の定義は本文・脚注と合わせる。",
+      "ai": "オルビスユー ドットで、ハリと透明感を目指すエイジングケア。",
+      "facts": "ハリ・うるおいによる透明感、年齢に応じたケア。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "A05",
+      "brand": "POLA",
+      "item": "第7世代 B.A ブランド訴求",
+      "quote": "時間は、存在しない。",
+      "url": "https://www.pola.co.jp/brand/ba/index.html",
+      "source_type": "공식 브랜드 캠페인 카피",
+      "decision": "KEEP",
+      "finding": "反実的な断言だが、時間・年齢への哲学的態度を表す。効能断言と区別。",
+      "scope": "直後の注釈はブランド意図を説明。時間そのものを変える効果の保証ではない。",
+      "edit": "維持。",
+      "ai": "B.Aのスキンケアで、年齢に応じたハリとうるおいを。",
+      "facts": "B.Aのスキンケア。年齢に応じたケアとハリ。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "A06",
+      "brand": "DECORTÉ",
+      "item": "リポソーム ナイトクリーム訴求",
+      "quote": "睡眠不足でも、3時間多く眠ったような肌へ。",
+      "url": "https://decorte.com/site/g/gJVAW/",
+      "source_type": "공식 제품 프로모션 카피",
+      "decision": "REVIEW",
+      "finding": "「3時間」は修辞にも測定値にも読める強い数値。言い換えより根拠確認が先。",
+      "scope": "睡眠時間増加の事実を示すわけではない。効能の評価条件と広告全体の表示確認が必要。",
+      "edit": "数字の根拠・媒体表記が不明なら公開案は保留（HOLD-EVIDENCE）。",
+      "ai": "リポソームのナイトクリームで、翌朝のハリとツヤをケア。",
+      "facts": "リポソーム アドバンスト リペアクリーム。翌朝のハリ・ツヤの訴求。",
+      "human_scores": [
+        1,
+        2,
+        2,
+        2,
+        1
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "A07",
+      "brand": "THREE",
+      "item": "2026 秋メイク コレクション",
+      "quote": "空の余白。立ち上がる美しさ。",
+      "url": "https://www.threecosmetics.com/brand/news/autumn-collection-2026/",
+      "source_type": "공식 시즌 캠페인",
+      "decision": "KEEP",
+      "finding": "名詞句・短い句点・余白がビジュアル表現と連動。文章長を整えない。",
+      "scope": "季節コレクションのイメージ表現であり医療効能の主張ではない。",
+      "edit": "維持。",
+      "ai": "THREEの秋色メイクで、軽やかな表情を楽しもう。",
+      "facts": "THREE 2026秋メイク。空、軽やかな印象、精油の香り。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "A08",
+      "brand": "RMK",
+      "item": "2026 SPRING COLLECTION",
+      "quote": "見たことのない新たな表情（かお）を咲かせて。",
+      "url": "https://www.rmkrmk.com/lp/2026_ss/",
+      "source_type": "공식 시즌 캠페인",
+      "decision": "KEEP",
+      "finding": "「表情を咲かせる」は新色の視覚的比喩。言い回しが不自然だからと書き換えない。",
+      "scope": "未体験を保証する比較実績ではなく情緒コピー。",
+      "edit": "維持。",
+      "ai": "RMKの春色メイクで、新しい表情を楽しもう。",
+      "facts": "RMKの2026春コレクション。春の色、ヘイジーパステル。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "id": "A09",
+      "brand": "KATE",
+      "item": "NO MORE RULES ブランドスローガン",
+      "quote": "自分を縛る、ルールを壊せ。",
+      "url": "https://www.nomorerules.net/brand/",
+      "source_type": "공식 브랜드 광고 슬로건",
+      "decision": "KEEP",
+      "finding": "命令形が自己解放を訴えるブランドボイス。敬体への置換は誤編集。",
+      "scope": "人格変化を事実として保証する商品効能の文脈で使わない。",
+      "edit": "維持。",
+      "ai": "KATEのメイクで、自分らしい表情を楽しもう。",
+      "facts": "KATEのNO MORE RULESブランド、メイクで自由に表現。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "A10",
+      "brand": "ALBION",
+      "item": "薬用スキンコンディショナー 特設キャンペーン",
+      "quote": "肌にスキを重ねていく。",
+      "url": "https://skinconditioner-special.albion.co.jp/",
+      "source_type": "공식 브랜드 특설 캠페인",
+      "decision": "KEEP",
+      "finding": "「スキ」を好意・肌へのまなざしと重ねた音の遊び。好きを一律に漢字化しない。",
+      "scope": "薬用化粧水の効果は別のラインアップ本文に限定して説明。",
+      "edit": "維持。",
+      "ai": "薬用スキンコンディショナーで、肌荒れと乾燥を防ぐ毎日のケア。",
+      "facts": "薬用スキンコンディショナー N。肌荒れ・乾燥を防ぐ。",
+      "human_scores": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "ai_scores": [
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    }
+  ],
+  "method": "10 professional brand-published campaign copies vs 10 AI drafts composed in this study from brief facts; not a verified human-authorship dataset and not blind"
+}

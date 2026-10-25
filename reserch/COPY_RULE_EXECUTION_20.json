@@ -1,0 +1,151 @@
+{
+  "version": "pilot1",
+  "sample_count": 20,
+  "v11_cases_flagged": 0,
+  "v12_cases_flagged": 8,
+  "v12_categories": {
+    "protected_brand_term": 3,
+    "claim_scope": 2,
+    "quantified_metaphor": 2,
+    "guarantee": 1
+  },
+  "cases": [
+    {
+      "id": "P01",
+      "brand": "ELIXIR",
+      "v11": [],
+      "v12": [
+        "protected_brand_term"
+      ]
+    },
+    {
+      "id": "P02",
+      "brand": "FANCL",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "P03",
+      "brand": "Curél",
+      "v11": [],
+      "v12": [
+        "claim_scope"
+      ]
+    },
+    {
+      "id": "P04",
+      "brand": "ORBIS",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "P05",
+      "brand": "POLA",
+      "v11": [],
+      "v12": [
+        "claim_scope"
+      ]
+    },
+    {
+      "id": "P06",
+      "brand": "DECORTÉ",
+      "v11": [],
+      "v12": [
+        "quantified_metaphor"
+      ]
+    },
+    {
+      "id": "P07",
+      "brand": "THREE",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "P08",
+      "brand": "RMK",
+      "v11": [],
+      "v12": [
+        "protected_brand_term"
+      ]
+    },
+    {
+      "id": "P09",
+      "brand": "KATE",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "P10",
+      "brand": "ALBION",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A01",
+      "brand": "ELIXIR",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A02",
+      "brand": "FANCL",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A03",
+      "brand": "Curél",
+      "v11": [],
+      "v12": [
+        "guarantee"
+      ]
+    },
+    {
+      "id": "A04",
+      "brand": "ORBIS",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A05",
+      "brand": "POLA",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A06",
+      "brand": "DECORTÉ",
+      "v11": [],
+      "v12": [
+        "quantified_metaphor"
+      ]
+    },
+    {
+      "id": "A07",
+      "brand": "THREE",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A08",
+      "brand": "RMK",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A09",
+      "brand": "KATE",
+      "v11": [],
+      "v12": []
+    },
+    {
+      "id": "A10",
+      "brand": "ALBION",
+      "v11": [],
+      "v12": [
+        "protected_brand_term"
+      ]
+    }
+  ],
+  "interpretation": "Keyword trigger difference only, no recall/precision/legal validity or real-world copy quality validated"
+}
