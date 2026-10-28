@@ -1,12 +1,12 @@
 # humanize-ja
 
-Make AI-generated Japanese sound natural without losing meaning, facts, or the writer's voice.
+**Make AI-generated Japanese sound natural without losing meaning, facts, or the writer's voice.**
 
 humanize-ja is an open-source Agent Skill for Japanese writing and editing, designed for use with Claude Code and Codex.
 
 It helps refine AI-generated Japanese text, awkward translations, and overly formulaic writing while preserving the original intent, factual accuracy, and brand voice.
 
-What makes it different?
+## What makes it different?
 
 Natural Japanese writing: Improve awkward phrasing, repetitive sentence patterns, unnatural keigo, and translation-like expressions.
 
@@ -22,13 +22,12 @@ Instead of rewriting everything to sound more human, humanize-ja helps you decid
 
 It is a writing and editorial skill, not an AI detector or a guarantee of advertising compliance.
 
-Languages: Japanese writing, with documentation for international users.
+**Languages: Japanese writing, with documentation for international users.**
 
-License: MIT · Version: 1.2.0
+**License: MIT · Version: 1.2.0**
 
-日本語での説明
 
-日本語の「AIっぽさ」を消すためだけでなく、書き手の意図・事実・ブランドの声を守る編集スキル。
+# 日本語での説明
 
 **日本語の「AIっぽさ」を消すためだけでなく、書き手の意図・事実・ブランドの声を守る編集スキル。**
 
