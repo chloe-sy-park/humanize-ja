@@ -84,14 +84,14 @@ It is a writing and editorial skill, not an AI detector or a guarantee of advert
 
 ```bash
 mkdir -p ~/.agents/skills
-git clone https://github.com/OWNER/humanize-ja.git ~/.agents/skills/humanize-ja
+git clone https://github.com/chloe-sy-park/humanize-ja.git ~/.agents/skills/humanize-ja
 ```
 
 **Claude Code（ユーザー全体）**
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone https://github.com/OWNER/humanize-ja.git ~/.claude/skills/humanize-ja
+git clone https://github.com/chloe-sy-park/humanize-ja.git ~/.claude/skills/humanize-ja
 ```
 
 **ChatGPT:** カスタムスキル対応環境ではスキルZIPをアップロード、または `SKILL.md` と必要な関連ファイルをプロジェクト/作業環境に提供します。ZIPのアップロード手順や利用条件は使用環境によって異なります。詳しくは[インストールガイド](docs/INSTALL_JA.md)を参照。
